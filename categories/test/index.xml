@@ -3,7 +3,7 @@
   <channel>
       <title>Test on Go Incremental </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://goincremental.github.io/categories/test/index.xml</link>
+    <link>http://www.goincremental.com/categories/test/index.xml</link>
     
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Just another sample post</title>
-      <link>http://goincremental.github.io/posts/newest</link>
+      <link>http://www.goincremental.com/posts/newest</link>
       <pubDate>Sat, 29 Mar 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://goincremental.github.io/posts/newest</guid>
+      <guid>http://www.goincremental.com/posts/newest</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;First Heading&lt;/h2&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>First Post</title>
-      <link>http://goincremental.github.io/posts/oldest</link>
+      <link>http://www.goincremental.com/posts/oldest</link>
       <pubDate>Thu, 27 Mar 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://goincremental.github.io/posts/oldest</guid>
+      <guid>http://www.goincremental.com/posts/oldest</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;Sample Post 1&lt;/h2&gt;
