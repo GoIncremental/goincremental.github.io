@@ -3,7 +3,7 @@
   <channel>
       <title>Blah on Go Incremental </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://www.goincremental.com/categories/blah/index.xml</link>
+    <link>http://localhost:1313/categories/blah/index.xml</link>
     
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>First Post</title>
-      <link>http://www.goincremental.com/posts/oldest/</link>
+      <link>http://localhost:1313/posts/oldest/</link>
       <pubDate>Thu, 27 Mar 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://www.goincremental.com/posts/oldest/</guid>
+      <guid>http://localhost:1313/posts/oldest/</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;Sample Post 1&lt;/h2&gt;
