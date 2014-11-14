@@ -3,7 +3,7 @@
   <channel>
       <title>Second on Go Incremental </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://localhost:1313/categories/second/index.xml</link>
+    <link>http://www.goincremental.com/categories/second/index.xml</link>
     
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Second Post</title>
-      <link>http://localhost:1313/posts/middle/</link>
+      <link>http://www.goincremental.com/posts/middle/</link>
       <pubDate>Fri, 28 Mar 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/posts/middle/</guid>
+      <guid>http://www.goincremental.com/posts/middle/</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;Sample Post 1&lt;/h2&gt;
