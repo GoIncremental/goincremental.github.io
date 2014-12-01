@@ -1,3 +1,4 @@
+
 .nav {
 
 	height: 50px;
@@ -18,8 +19,7 @@
 
 .navbar-collapse {
 	
-	padding-top: -10px;
-	height: 173px;
+	height: 131px;
 	text-align: center;
 	
 
@@ -31,3 +31,79 @@
 	
 
 }
+
+.navbar-toggle {
+
+	margin-top: 0;
+}
+
+.jumbotron {
+	
+	background: #fff;
+	margin-top: -20px;
+}
+
+img {
+    display: block;
+   	margin-left: 15px;
+}
+
+.site-brand {
+	width: 350px;
+	margin: 0 auto;
+}
+
+.header-brand {
+
+	text-align: center;
+	margin-left: auto;
+	font-size: 3.8em;
+	font-weight: lighter;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.about {
+	background: #82B1FF;
+}
+
+
+.contact {
+	background: #FFB74D;
+}
+
+
+.list-row {
+
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.list-row ul {
+
+	list-style: none;
+	padding-top: 150px;
+	
+}
+
+.list-row ul li {
+
+	text-align: center;
+	display: inline;
+}
+
+.list-row ul .second-item{
+
+	margin-left: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
