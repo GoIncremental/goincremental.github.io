@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Template on Go Incremental</title>
-    <link>http://www.goincremental.com/categories/template/</link>
-    <description>Recent content in Template on Go Incremental</description>
+    <title>Test on Go Incremental</title>
+    <link>http://www.goincremental.com/tags/test/</link>
+    <description>Recent content in Test on Go Incremental</description>
     <generator>Hugo -- gohugo.io</generator>
     
     
     
     <lastBuildDate>Fri, 28 Mar 2014 00:00:00 UTC</lastBuildDate>
-    <atom:link href="http://www.goincremental.com/categories/template/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.goincremental.com/tags/test/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Second Post</title>

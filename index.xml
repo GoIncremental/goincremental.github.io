@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Recent Content on Go Incremental </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://www.goincremental.com/index.xml</link>
+    <title>Go Incremental</title>
+    <link>http://www.goincremental.com/</link>
+    <description>Recent content on Go Incremental</description>
+    <generator>Hugo -- gohugo.io</generator>
     
     
     
-    <updated>Sat, 29 Mar 2014 00:00:00 UTC</updated>
+    <lastBuildDate>Sat, 29 Mar 2014 00:00:00 UTC</lastBuildDate>
+    <atom:link href="http://www.goincremental.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Just another sample post</title>
-      <link>http://www.goincremental.com/posts/newest</link>
+      <link>http://www.goincremental.com/posts/newest/</link>
       <pubDate>Sat, 29 Mar 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://www.goincremental.com/posts/newest</guid>
+      <guid>http://www.goincremental.com/posts/newest/</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;First Heading&lt;/h2&gt;
@@ -33,10 +35,10 @@
     
     <item>
       <title>Second Post</title>
-      <link>http://www.goincremental.com/posts/middle</link>
+      <link>http://www.goincremental.com/posts/middle/</link>
       <pubDate>Fri, 28 Mar 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://www.goincremental.com/posts/middle</guid>
+      <guid>http://www.goincremental.com/posts/middle/</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;Sample Post 1&lt;/h2&gt;
@@ -60,10 +62,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
     
     <item>
       <title>First Post</title>
-      <link>http://www.goincremental.com/posts/oldest</link>
+      <link>http://www.goincremental.com/posts/oldest/</link>
       <pubDate>Thu, 27 Mar 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://www.goincremental.com/posts/oldest</guid>
+      <guid>http://www.goincremental.com/posts/oldest/</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;Sample Post 1&lt;/h2&gt;
