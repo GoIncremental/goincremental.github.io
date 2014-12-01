@@ -1,5 +1,3 @@
-/*  Typography  */
-
 /*  Navigation   */
 
 .nav {
@@ -40,34 +38,24 @@
 
 /*  Articles/Sections  */
 
-
-/*  Images  */
-
-/*  Footer  */
-
-/*  Media Queries  */
-
-
-
-
+/* First Section */
 
 .jumbotron {
 	
-	background: #fff;
+	background: #FAFAFA ;
 	margin-top: -20px;
+
 }
 
-img {
-    display: block;
-   	margin-left: 15px;
-}
+
 
 .site-brand {
+
 	width: 350px;
 	margin: 0 auto;
-	padding-top: 50px;
+	padding-top: 80px;
+	height: 600px;
 
-	height: 650px;
 }
 
 .header-brand {
@@ -79,21 +67,65 @@ img {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+.green {
+	color: #9CCC65;
+}
+
+/* Second Section */
 
 .about {
+
+	border-top: 1px solid #1E88E5;
+	border-bottom: 1px solid #1E88E5;
+	margin-top: -30px;
 	background: #90CAF9;
+
 }
 
+.ab-p {
 
-.contact {
-	background: #EEEEEE;
+	max-width: 960px;
+	text-align: center;
+	position: relative;
+	color: white;
+	padding: 15px;
+
 }
 
+.middle-para {
+
+	border-left: 1px white solid;
+	border-right: 1px white solid;
+	padding: 15px;
+
+}
+
+/* Third Section */
+
+.the-team {
+
+	margin-top: -30px;
+	background: #FAFAFA;
+}
+
+.team-box {
+	width: 170px;
+	padding: 10px;
+	background: #fff;
+	color: #424242;
+	font-weight: lighter;
+	border: 1px solid #E0E0E0;
+
+
+
+	
+}
 
 .list-row {
 
-	max-width: 600px;
+	max-width: 650px;
 	margin: 0 auto;
+
 }
 
 .list-row ul {
@@ -107,11 +139,13 @@ img {
 	
 	text-align: center;
 	display: inline-block;
+
 }
 
 .list-row ul .sec {
 
 	margin-left: 230px;
+
 }
 
 
@@ -122,65 +156,56 @@ img {
 	display: block;
 	height: 150px;
 	width: 150px;
-	border: dashed 1px black;
+	border: dashed 1px #hite;
 	border-radius: 100px;
+	background: #9CCC65;
+
+}
+
+/* Fourth Section */
+
+
+.contact {
+
+	color: gray;
+	background: white;
+
 }
 
 
+/*  Images  */
 
-
-
-
-.ab-p {
-	max-width: 960px;
- 	text-align: center;
-	position: relative;
-	color: white;
- 	padding: 15px;
- }
-
-.middle-para {
-
-	border-left: 1px white solid;
-	border-right: 1px white solid;
-	padding: 15px;
+img {
+	display: block;
+	margin-left: 15px;
 }
 
+/*  Footer  */
 
-@media (max-width: 1200px) {
-	
-
-	
-
-}
+/*  Media Queries  */
 
 
 @media (max-width: 768px) { 
 
-
 	.list-row ul li {
 
+		margin-left: 60px;
 
-	margin-left: 60px;
-	
 	}
 
 	.list-row ul .sec {
 		
-	margin-left: 60px;
+		margin-left: 60px;
 
 	}
 
 	.middle-para {
 
 		border: none;
+
 	}
-	
-	
 
-
-
- }
+}
 
 
 
