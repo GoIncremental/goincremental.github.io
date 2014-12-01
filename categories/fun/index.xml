@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fun on Go Incremental</title>
-    <link>http://www.goincremental.com/categories/fun/</link>
+    <link>http://localhost:1313/categories/fun/</link>
     <description>Recent content in Fun on Go Incremental</description>
     <generator>Hugo -- gohugo.io</generator>
     
     
     
     <lastBuildDate>Sat, 29 Mar 2014 00:00:00 UTC</lastBuildDate>
-    <atom:link href="http://www.goincremental.com/categories/fun/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/fun/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Just another sample post</title>
-      <link>http://www.goincremental.com/posts/newest/</link>
+      <link>http://localhost:1313/posts/newest/</link>
       <pubDate>Sat, 29 Mar 2014 00:00:00 UTC</pubDate>
       
-      <guid>http://www.goincremental.com/posts/newest/</guid>
+      <guid>http://localhost:1313/posts/newest/</guid>
       <description>
 
 &lt;h2 id=&#34;toc_0&#34;&gt;First Heading&lt;/h2&gt;

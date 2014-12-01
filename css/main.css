@@ -1,48 +1,33 @@
-/* Main Tags */
-* {
+.nav {
 
-	margin: 0;
-	padding: 0;
-
+	height: 50px;
 }
 
-/* Typography */
+.navbar-brand {
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-
-	font-family: 'Source Sans Pro', sans-serif;
-
+	font-size: 1.5em;
+	margin-top: -5px;
 }
 
-h3 {
+.container-fluid {
 
-	font-size: 3em;
-	font-weight: lighter;
+	padding-top: 15px;
+	margin-top: -5px;
+	font-size: 1.1em;
 }
 
-
-
-/* Sections, Articles, Asides */
-
-
-.big-hero {
-
-	max-width: 100%;
-	height: 750px;
+.navbar-collapse {
+	
+	padding-top: -10px;
+	height: 173px;
+	text-align: center;
+	
 
 }
+.navbar-collapse li {
 
-.logorino {
+	border-bottom: 1px solid #E0E0E0;
 
-	max-width: 1024px;
-	height: 400px;
-	margin: 0 auto;
-	padding-top: 150px; 
+	
+
 }
-
-
-/* Navigation */

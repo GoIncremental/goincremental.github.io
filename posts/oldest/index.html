@@ -6,9 +6,9 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <base href="http://www.goincremental.com">
+    <base href="http://localhost:1313">
     <title> First Post </title>
-    <link rel="canonical" href="http://www.goincremental.com/posts/oldest/">
+    <link rel="canonical" href="http://localhost:1313/posts/oldest/">
     
 
 <link rel="stylesheet" href="/css/poole.css">
@@ -89,7 +89,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <hr />
   
     <span class="left">
-    &nbsp; <em>&laquo; Previous:</em> <a class="next" href="http://www.goincremental.com/posts/middle/">Second Post</a>
+    &nbsp; <em>&laquo; Previous:</em> <a class="next" href="http://localhost:1313/posts/middle/">Second Post</a>
     </span>
   
 
@@ -124,7 +124,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </footer>
 </div>
 
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
 
 
