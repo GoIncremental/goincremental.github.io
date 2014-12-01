@@ -1,3 +1,6 @@
+/*  Typography  */
+
+/*  Navigation   */
 
 .nav {
 
@@ -10,7 +13,7 @@
 	margin-top: -5px;
 }
 
-.container-fluid {
+.nav-cont {
 
 	padding-top: 15px;
 	margin-top: -5px;
@@ -28,14 +31,25 @@
 
 	border-bottom: 1px solid #E0E0E0;
 
-	
-
 }
 
 .navbar-toggle {
 
 	margin-top: 0;
 }
+
+/*  Articles/Sections  */
+
+
+/*  Images  */
+
+/*  Footer  */
+
+/*  Media Queries  */
+
+
+
+
 
 .jumbotron {
 	
@@ -51,6 +65,9 @@ img {
 .site-brand {
 	width: 350px;
 	margin: 0 auto;
+	padding-top: 50px;
+
+	height: 650px;
 }
 
 .header-brand {
@@ -64,12 +81,12 @@ img {
 
 
 .about {
-	background: #82B1FF;
+	background: #90CAF9;
 }
 
 
 .contact {
-	background: #FFB74D;
+	background: #EEEEEE;
 }
 
 
@@ -111,6 +128,33 @@ img {
 
 
 
+
+
+
+.ab-p {
+	max-width: 960px;
+ 	text-align: center;
+	position: relative;
+	color: white;
+ 	padding: 15px;
+ }
+
+.middle-para {
+
+	border-left: 1px white solid;
+	border-right: 1px white solid;
+	padding: 15px;
+}
+
+
+@media (max-width: 1200px) {
+	
+
+	
+
+}
+
+
 @media (max-width: 768px) { 
 
 
@@ -127,8 +171,14 @@ img {
 
 	}
 
+	
+	
+
+
 
  }
+
+
 
 
 
