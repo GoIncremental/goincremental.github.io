@@ -45,13 +45,13 @@
 }
 
 .head{
-	margin-top:-670px;
+	margin-top:-770px;
 	-moz-box-shadow: inset 0 0 4em #BDBDBD;  
 	-webkit-box-shadow: inset 0 0 4em #BDBDBD;   
 	box-shadow: inset 0 0 4em #BDBDBD;
 	position: fixed;
 	width: 100%;
-	height:80%;
+	height:90%;
 	z-index: -1;
 	
 }
@@ -209,7 +209,17 @@ img {
 	.head{
 
 		margin-top: -310px;
-		opacity: 0.2;
+		opacity: 0.4;
+	}
+
+	.header-brand {
+
+		margin-top: -230px;
+		opacity: 1.5;
+	}
+
+	.nbar-left li {
+		font-weight: normal;
 	}
 
 	.list-row ul li {
