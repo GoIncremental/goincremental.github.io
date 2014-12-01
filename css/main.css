@@ -75,35 +75,54 @@ img {
 
 .list-row {
 
-	max-width: 500px;
+	max-width: 600px;
 	margin: 0 auto;
 }
 
 .list-row ul {
 
 	list-style: none;
-	padding-top: 150px;
+
 	
 }
 
 .list-row ul li {
-
+	
 	text-align: center;
-	display: inline;
+	display: inline-block;
 }
 
-.list-row ul .second-item{
+.list-row ul .sec {
 
 	margin-left: 230px;
 }
 
 
+.circ {
+	
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: block;
+	height: 150px;
+	width: 150px;
+	border: dashed 1px black;
+	border-radius: 100px;
+}
 
 
 
+@media (max-width: 768px) { 
 
 
+	.list-row ul .sec {
 
+
+	margin-left: 60px;
+	
+	}
+
+
+ }
 
 
 
