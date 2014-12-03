@@ -86,7 +86,7 @@
 
 .orange {
 
-	color: #FF8A65;
+	color: #0288D1;
 
 }
 /* Second Section */
@@ -214,22 +214,35 @@
 
 form {
 
-	margin-top: -140px;
-	margin-right: 50px;
-	width: 300px;
-	float: right;
+	width: 690px;
+	margin: 0 auto;
+	margin-top: 25px;
 	border: 1px solid #E0E0E0;
 	padding: 15px;
 	background: #FAFAFA;
 
 }
 
-
+.form-control {
+	width: 300px;
+}
 label {
 
 	padding-top: 15px;
 }
 
+textarea {
+	position: absolute;
+	margin-top: -185px;
+	margin-left: 350px;
+}
+
+.ml {
+	float: right;
+	position: absolute;
+	margin-top: -225px;
+	margin-left: 350px;
+}
 .btn {
 
 	background: #9CCC65;
@@ -256,11 +269,13 @@ footer {
 
 }
 
-.bottom-left-menu {
+.bottom-right2-menu {
+
 	float: right;
 	list-style: none;
 	text-align: right;
 	padding: 10px;
+	margin-right: 35px;
 	width: 150px;
 	font-weight: lighter;
 	font-size: 0.8em;
@@ -268,7 +283,7 @@ footer {
 
 }
 
-.bottom-left-menu li{
+.bottom-right2-menu li{
 
 	margin-top: 5px;
 	border-bottom: 1px solid #37474F;
@@ -360,6 +375,21 @@ img {
 		width: 100%;
 		margin-top: 0;
 
+	}
+
+	textarea {
+		
+		float: left;	
+		position: inherit;
+		margin-top: 40px;
+		margin-left: -60px;
+	}
+
+	.ml {
+		float: left;
+		position: relative;
+		margin-top: 0;
+		margin-left: 0;
 	}
 
 }
