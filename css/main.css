@@ -26,11 +26,19 @@
 	color: black;
 }
 
+.nbar-left li a:hover {
+
+	border-bottom: 1px solid #BDBDBD;
+}
 
 
 
 
 /*  Articles/Sections  */
+
+.container {
+	padding: 15px;
+}
 
 /* First Section */
 
@@ -90,6 +98,8 @@
 	border-bottom: 1px solid #1E88E5;
 	margin-top: -30px;
 	background: #90CAF9;
+	box-shadow: inset 0 0 1em #64B5F6;
+
 
 }
 
@@ -185,6 +195,8 @@
 
 }
 
+
+
 /* Fourth Section */
 
 
@@ -201,6 +213,7 @@
 }
 
 form {
+
 	margin-top: -140px;
 	margin-right: 50px;
 	width: 300px;
@@ -218,6 +231,7 @@ label {
 }
 
 .btn {
+
 	background: #9CCC65;
 	color: white;
 	font-weight: lighter;
