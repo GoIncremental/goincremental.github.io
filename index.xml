@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go Incremental</title>
-    <link>http://www.goincremental.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Go Incremental</description>
     <generator>Hugo -- gohugo.io</generator>
     
     
     
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 UTC</lastBuildDate>
-    <atom:link href="http://www.goincremental.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

@@ -50,9 +50,8 @@
 	-moz-box-shadow: inset 0 0 4em #BDBDBD;  
 	-webkit-box-shadow: inset 0 0 4em #BDBDBD;   
 	box-shadow: inset 0 0 4em #BDBDBD;
-	position: fixed;
 	width: 100%;
-	height:110%;
+	height: 700px;
 	z-index: -1;
 	
 }
@@ -92,7 +91,7 @@
 	position: inherit;
 	border-top: 1px solid #1E88E5;
 	border-bottom: 1px solid #1E88E5;
-	margin-top: 35%;
+	margin-top: -30px;
 	background: #90CAF9;
 
 }
@@ -233,8 +232,6 @@ label {
 /* Footer */
 
 footer {
-	
-	margin-top: 500px;
 	clear: both;
 	height: 500px;
 	width: 100%;
