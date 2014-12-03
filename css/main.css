@@ -261,7 +261,7 @@ textarea {
 footer {
 
 	clear: both;
-	height: 180px;
+	height: auto;
 	width: 100%;
 	z-index: 2;
 	background: #263238;
