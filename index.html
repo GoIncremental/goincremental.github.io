@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,110 +19,112 @@
 
 
 
-  <div class="jumbotron head">
-    <div class="container">
-      <div class="site-brand">
-        <img class="img-brand" src="img/goincremental.png" height="250" width="250">
-        <h2 class="header-brand"><span class="green">Go</span> <span class="orange">Incremental</span></h2>
-      </div>
 
+<div class="jumbotron head">
+  <div class="container">
+    <div class="site-brand">
+      <img class="img-brand" src="img/goincremental.png" height="250" width="250">
+      <h2 class="header-brand"><span class="green">Go</span> <span class="orange">Incremental</span></h2>
+    </div>
+
+  </div>
+</div>
+<ul class="nbar-left">
+  <li><a href="#about">About</a></li>
+  <li><a href="#team" class="cent">| The Team |</a></li>
+  <li><a href="#contact">Contact Us</a></li>
+</ul>
+
+<section class="jumbotron about" id="about" alt="about">
+  <div class="container-fluid">
+    <div class="row ab-wrapper">
+      <div class="col-md-4 ab-p">
+        <i class="fa fa-bug fa-5x"></i>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-md-4 ab-p">
+        <i class="fa fa-code-fork fa-5x"></i>
+        <br>
+        <p class="middle-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor .</p>
+      </div>
+      <div class="col-md-4 ab-p">
+        <i class="fa fa-cogs fa-5x"></i>
+        <br>
+        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
     </div>
   </div>
-  <ul class="nbar-left">
-    <li><a href="#about">About</a></li>
-    <li><a href="#team" class="cent">| The Team |</a></li>
-    <li><a href="#contact">Contact Us</a></li>
-  </ul>
+</section>
+<section class="jumbotron the-team" id="team">
+  <article class="container">
+    <div class="row list-row">
 
-  <section class="jumbotron about" id="about" alt="about">
-    <div class="container-fluid">
-      <div class="row ab-wrapper">
-        <div class="col-md-4 ab-p">
-          <i class="fa fa-bug fa-5x"></i>
-          <br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="col-md-4 ab-p">
-          <i class="fa fa-code-fork fa-5x"></i>
-          <br>
-          <p class="middle-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor .</p>
-        </div>
-        <div class="col-md-4 ab-p">
-          <i class="fa fa-cogs fa-5x"></i>
-          <br>
-          <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
+      <ul>
+        <li class="team-box">
+          <span class="circ "></span>
+          David Bochenski <br><br> <a href="MAILTO:david@goincremental.com" class="fa fa-envelope fa-2x"></a> &nbsp &nbsp
+          <a href="http://twitter.com" class="fa fa-twitter fa-2x"></a> &nbsp &nbsp <a href="http://github.com" class="fa fa-github fa-2x"></a>
+
+        </li>
+        <li class="sec team-box">
+          <span class="circ"></span>
+          Liam Giles <br><br> <a href="MAILTO:liam@goincremental.com" class="fa fa-envelope fa-2x"></a> &nbsp &nbsp
+          <a href="http://twitter.com/mrliamgiles" class="fa fa-twitter fa-2x"></a> &nbsp &nbsp <a href="http://github.com/liamgiles" class="fa fa-github fa-2x"></a>
+
+        </li>
+      </ul>
+
     </div>
-  </section>
-  <section class="jumbotron the-team" id="team">
-    <article class="container">
-      <div class="row list-row">
+  </article>
+</section>
+<section class="jumbotron contact" id="contact">
+  <article class="container">
+    <h1> Want to know more? </h1>
+    <h3> Get in touch, we'd love to hear from you. </h3>
 
-        <ul>
-          <li class="team-box">
-            <span class="circ "></span>
-            Team Member 1 <br><br> <a href="#contact" class="fa fa-envelope fa-2x"></a> &nbsp &nbsp
-            <a href="http://twitter.com" class="fa fa-twitter fa-2x"></a> &nbsp &nbsp <a href="http://github.com" class="fa fa-github fa-2x"></a>
+    <form role="form" action="MAILTO:info@goincremental.com">
+      <div class="form-group">
+        <label for="name"> Name </label>
+        <input type="text" class="form-control" id="name" placeholder="Name">
+        <label for="email"> Email Address </label>
+        <input type="email" class="form-control" id="email" placeholder="Email">
+        <label for="topic"> Topic </label>
+        <input type="text" class="form-control" id="topic" placeholder="Topic">
+        <label for="Message" class="ml"> Message </label>
+        <textarea rows="5" class="form-control" id="Message" placeholder="Message..."></textarea> 
+        <button type="submit" class="btn btn-default">Send</button>
+      </form>
 
-          </li>
-          <li class="sec team-box">
-            <span class="circ"></span>
-            Team Member 2 <br><br> <a href="#contact" class="fa fa-envelope fa-2x"></a> &nbsp &nbsp
-            <a href="http://twitter.com" class="fa fa-twitter fa-2x"></a> &nbsp &nbsp <a href="http://github.com" class="fa fa-github fa-2x"></a>
-
-          </li>
-        </ul>
-
-      </div>
     </article>
   </section>
-  <section class="jumbotron contact" id="contact">
-    <article class="container">
-      <h1> Want to know more? </h1>
-      <h3> Get in touch, we'd love to hear from you. </h3>
+   <footer>
+  <div class="container">
+    <ul class="bottom-right2-menu">
+      <li> <i class="fa fa-sitemap"></i> Site Map </li>
+      <li> <i class="fa fa-info"></i> Terms & conditions</li>
+      <li> <i class="fa fa-key"></i> Privacy Policy </li>
+    </ul>
+    <ul class="bottom-right-menu">
+      <li> <i class="fa fa-phone"></i>
+        tel: 01283 260 130  </li>
+        <li> <i class="fa fa-home"></i>
+          Cross Street Business Center <br>
+          Suite 5, 43a Cross Street <br>
+          Burton on Trent<br>
 
-      <form role="form" action="MAILTO:info@goincremental.com">
-        <div class="form-group">
-          <label for="name"> Name </label>
-          <input type="text" class="form-control" id="name" placeholder="Name">
-          <label for="email"> Email Address </label>
-          <input type="email" class="form-control" id="email" placeholder="Email">
-          <label for="topic"> Topic </label>
-          <input type="text" class="form-control" id="topic" placeholder="Topic">
-          <label for="Message" class="ml"> Message </label>
-          <textarea rows="5" class="form-control" id="Message" placeholder="Message..."></textarea> 
-          <button type="submit" class="btn btn-default">Send</button>
-        </form>
-
-      </article>
-    </section>
-    <footer>
-      <div class="container">
-        <ul class="bottom-right2-menu">
-          <li> <i class="fa fa-sitemap"></i> Site Map </li>
-          <li> <i class="fa fa-info"></i> Terms & conditions</li>
-          <li> <i class="fa fa-key"></i> Privacy Policy </li>
+          DE14 1EF </li>
         </ul>
-        <ul class="bottom-right-menu">
-          <li> <i class="fa fa-phone"></i>
-            tel: ###########  </li>
-            <li> <i class="fa fa-home"></i>
-              Address Line 1 <br>
-              Address Line 2 <br>
-              City<br>
+        <h3> Follow us on Social Media! </h3>
+        <p><i class="fa fa-twitter-square fa-3x"></i></i>
 
-              Post Code </li>
-            </ul>
-            <h3> Follow us on Social Media! </h3>
-            <p><i class="fa fa-twitter-square fa-3x"></i> &nbsp &nbsp <i class="fa fa-slack fa-3x"></i> &nbsp &nbsp <i class="fa fa-facebook-square fa-3x"></i>
+        </p>
 
-            </p>
+        <p> <i class="fa fa-copyright"></i> GoIncremental 2014 -- very important company words go here</p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </body>
+  </html>
 
-            <p> <i class="fa fa-copyright"></i> GoIncremental 2014 -- very important company words go here</p>
-          </div>
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-      </body>
-      </html>
