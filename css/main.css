@@ -3,7 +3,7 @@
 
 .nbar-left {
 	position: absolute;
-	margin-top: -45px;
+	margin-top: -65px;
 	font-size: 1.1em;
 	left: 0;
 	display: inline;
@@ -21,15 +21,12 @@
 }
 
 .nbar-left li a {
+
+	font-weight: lighter;
 	color: black;
 }
 
-.nbar-left li a:hover {
 
-	border-bottom: 1px solid #FAFAFA;
-
-
-}
 
 
 
@@ -46,21 +43,22 @@
 
 .head{
 
-	top: 0;
 	-moz-box-shadow: inset 0 0 4em #BDBDBD;  
 	-webkit-box-shadow: inset 0 0 4em #BDBDBD;   
 	box-shadow: inset 0 0 4em #BDBDBD;
 	width: 100%;
-	height: 700px;
+	height: 500px;
 	z-index: -1;
 	
 }
 
 
 .site-brand {
+	
 
 	width: 350px;
 	margin: 0 auto;
+	margin-top: 40px;
 	height: 600px;
 
 }
@@ -68,7 +66,6 @@
 .header-brand {
 
 	text-align: center;
-	margin-left: auto;
 	font-size: 3.8em;
 	font-weight: lighter;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -171,7 +168,7 @@
 	display: block;
 	height: 150px;
 	width: 150px;
-	border: dashed 1px #hite;
+	border: dashed 1px white;
 	border-radius: 100px;
 	background: #9CCC65;
 
@@ -208,6 +205,9 @@ form {
 	margin-right: 50px;
 	width: 300px;
 	float: right;
+	border: 1px solid #E0E0E0;
+	padding: 15px;
+	background: #FAFAFA;
 
 }
 
@@ -259,18 +259,8 @@ img {
 
 @media (max-width: 1024px) { 
 
-	.head{
 
-		margin-top: -60px;
 
-	}
-
-	.header-brand {
-
-		margin-top: -230px;
-		opacity: 0.6;
-
-	}
 
 	.img-brand {
 
@@ -299,7 +289,7 @@ img {
 	}
 
 	.list-row ul .sec {
-		
+
 		margin-left: 60px;
 
 	}
