@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 function test(e) {
 
-  alert('Email Sent, We will get back in touch as soon as possible')
+  alert('Email Sent, We will get back in touch as soon as possible');
 
 
 }
