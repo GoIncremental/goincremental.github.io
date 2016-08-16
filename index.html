@@ -1,230 +1,215 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <title> Go Incremental </title>
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lato|Roboto' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/materialize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,400|Open+Sans:400,300' rel='stylesheet' type='text/css'>
-  <link href="css/main.css" rel="stylesheet" type="text/css">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
-
-  <script type="text/javascript" src="https://goincremental.agilecrm.com/stats/min/agile-min.js">
-  </script>
-  <script type="text/javascript">
-    _agile.set_account('nms4u6sdokncvj0sgp342atfas', 'goincremental');
-    _agile.track_page_view();
-    _agile_execute_web_rules();
-  </script>
-  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <base href="/">
+  <title>Go Incremental</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+ 
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 
 </head>
 
 <body>
-
-  <nav>
-    <div class="nav-wrapper white col m12 center ">
-      <a href="#" class="brand-logo">
-        <img class="imglogo" src="img/logo.png">
-      </a>
-      <h1 class="center hero-title teal-text">Go Incremental</h1>
-
-
-    </div>
-  </nav>
-<div id="fb-root"></div>
-<script>
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
-
-<div class="hero col m5 ">
-
-  <div class="parallax-container container">
-    <div class="box col m5">
-
-      <div class="col m5 center">
-        <a class="waves-effect waves-light btn orange darken-3" href="#contact"><i class="mdi-communication-email right"></i>Contact Us</a>
-
-        <a class="waves-effect waves-light btn blue darken-3" href="#about"> <i class="mdi-action-info-outline right">
-        </i>Learn More</a>
+  <nav class="navbar navbar-default navbar-inverse" style="border-radius: 0; height: 60px;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-right" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" style="margin-top: -8px" height="45"></a> <span class="header-text"> Go Incremental </span>
       </div>
-    </div>
-  </div>
-
-</div>
-
-
-<div class="section green lighten-1 ">
-  <div class="row">
-    <div class="secArea row col m12 ">
-
-      <div class="row container white-text ">
-
-        <div class="col m4">
-
-          <h2 class="center"><i class="mdi-action-assignment med"></i>
-          </h2>
-          <h3 class="center thin">Bespoke</h3>
-          <p>We engineer bespoke software solutions to match all your business needs.</p>
-        </div>
-        <div class="col m4">
-          <h2 class="center"><i class="mdi-social-person-outline med"></i>
-          </h2>
-          <h3 class="center thin">Client First</h3>
-          <p>We work with the client in mind, we will keep in close contact and be on hand to help you.</p>
-        </div>
-
-        <div class="col m4">
-          <h2 class="center"><i class="mdi-device-dvr med"></i>
-          </h2>
-          <h3 class="center thin">Quality</h3>
-          <p>We take pride in the work that we do. We offer nothing but high quality solutions.</p>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-
-</div>
-<div class="parallax-container">
-  <div class="parallax">
-    <img src="img/img2.jpg">
-  </div>
-</div>
-
-<div class="section orange darken-3">
-  <div class="row">
-    <div class="secArea row col m12 " id="about">
-
-      <div class="row container white-text ">
-
-        <h2 class="center"> <i class="mdi-action-question-answer med"></i> </h2>
-        <p>Here at GoIncremental we are a small team that is dedicated to developing the highest of quality bespoke solutions to clients. With a strong belief and following of Agile Methods, we work efficently. We work closely with you in order to create the best solution that you require.</p>
-
-      </div>
-
-    </div>
-
-  </div>
-</div>
+      <div class="collapse navbar-collapse" id="top-right">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">HOME</a></li>
+          <li><a href="/about">ABOUT US</a></li>
 
 
-
-
-
-
-
-<div class="section">
-  <div class="row">
-    <div class="secArea row col m12 " id="contact">
-      <div class="row container cont-container z-depth-1">
-        <h2 class="thin"> Contact Us </h2>
-
-        <div class="row">
-
-
-          <form class="col s12" id="agile-form" onsubmit="_agile_synch_form_v2();return false;" action="#">
-            <div class="row">
-              <legend id="agile-form-data" name="goincremental nms4u6sdokncvj0sgp342atfas # website"></legend>
-
-              <div class="input-field col s6">
-                <input id="firstNAme" type="text" placeholder="First Name" name="first_name" class="validate">
-                <label for="firstNAme">First Name</label>
-              </div>
-              <div class="input-field col s6">
-                <input id="lastName" type="text" name="last_name" class="validate" placeholder="Last Name">
-                <label for="lastName">Last Name</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <input id="email" type="email" name="email" placeholder="Email" class="validate">
-                <label for="email">Email</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <textarea id="message" name="note" type="text" class="materialize-textarea "></textarea>
-                <label for="message">Message</label>
-              </div>
-            </div>
-
-
-        </div>
-        <button type="submit" class="waves-effect waves-light btn blue darken-3 right" onclick="test()" value="Send">Send</button>
-
-        </form>
-      </div>
-
-
-
-    </div>
-  </div>
-
-</div>
-
-</div>
-</div>
-
-
-
-
-<footer class="page-footer blue lighten-1">
-  <div class="container">
-    <div class="row">
-
-
-      <div class="col m8" style="overflow: hidden;">
-        <h5 class="white-text thin">Connect</h5>
-        <br>
-        <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.a5bbbb7216610af1306d56b0f28a67d7.en.html#_=1424079762804&amp;dnt=true&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=GoIncremental&amp;show_count=true&amp;show_screen_name=true&amp;size=l"
-        class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 314px; height: 28px;"></iframe>
-        <br>
-        <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/106974110048613479756" data-rel="publisher"></div>
-        <br>
-        <div class="fb-like" data-href="https://www.facebook.com/pages/Go-Incremental/700827010030364?fref=ts" data-width="&#x2020;T&#xa7;t" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-        <br>
-        <script src="//platform.linkedin.com/in.js" type="text/javascript">
-          lang: en_US
-        </script>
-        <script type="IN/FollowCompany" data-id="9245777" data-counter="right"></script>
-      </div>
-
-      <div class="col m4 right">
-
-        <ul class="white-text thin">
-
-          <li><a href="tel:01283260130" class="phnno">TEL: 01283 260 130</a>
-          </li>
-          <li>
-            Cross Street Business Centre Suite 5, </br> 43a Cross Street </br> Burton on Trent </br>DE14 1EF
-          </li>
         </ul>
       </div>
     </div>
-  </div>
-  <div class="footer-copyright">
-    <div class="container">
-      © 2015 GoIncremental
+  </nav>
+
+<section style="margin-top:60px; height: 420px;" class="first-section">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+       
+
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="container">
+                    <div class="col-md-6 col-md-offset-1">
+
+                        <h1 style="font-size: 3.5em; padding: 15;"> Seasoned DevOps Professionals </h1>
+                        <p style="font-size:18px; padding: 15;"> 
+                            We have well over a decade of experience with DevOps at<span class="pink-text"> GoIncremental</span>, providing one of the 
+                            first fully automated development pipelines for the UK Government in 2001. We've since gone on to provide advice and expertise on tens of
+                            clients product development pipelines.
+                        </p>
+
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="col-md-6 col-md-offset-1">
+
+                        <h1 style="font-size: 3.5em; padding: 15;"> Agile Provocatuers </h1>
+                        <p style="font-size:18px; padding: 15;">
+                            We recognise that change is hard - and it needs some out there thinking. At<span class="pink-text"> GoIncremental </span>
+                            we employ and have access to some of the world's leading agile coaches, who are as happy pushing code as they are pushing boundaries.
+                        </p>
+
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>x
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="col-md-6 col-md-offset-1">
+
+                        <h1 style="font-size: 3.5em; padding: 15;"> Full Stack Security </h1>
+                        <p style="font-size:18px; padding: 15;">
+                            Most of our clients take the security sandwich approach - a bit of security before, some development, and a pen test at the end. At <span class="pink-text"> GoIncremental </span>
+                            we help you bake security in to your development process from the start. 
+                            We employ world class penetration testers and ethical hackers to push us to the limit - so you don't pass it.
+                        </p>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-  </div>
+</section>
+<section class="jumbotron">
+    <div class="container">
+        <!--<p style="font-size:23px;  text-align:center;">We construct the best solution to your needs.</p>-->
+
+        <p style="font-size:18px;text-align:center;">
+            
+        </p>
+
+    </div>
+</section>
+<section class="second-section" id="second-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-1">
+                <h3> AGILE DEVELOPMENT </h3>
+                <p> We at GoIncremental work in an agile manner, we believe that the agile development process and mindset is fundamental and key to delivering software.</p>
+                <p> We take this mindset into our coaching so that you too, can benefit from agile methods. </p>
+                <br>
+                <br>
+
+                <!--<button class="btn btn-primary">Learn more about Agile Development</button>-->
+            </div>
+            <div class="col-md-4 col-md-offset-2">
+                <h3> DELIVERY YOU NEED </h3>
+                <p> We work with you to prioritise what features you need and when you need them, allowing you to reach MVP sooner.</p>                
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="jumbotron " style="height: 40px; background-color: white;">
+    <div class="container-fluid" style="background: #efefef;">
+<!--
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 sechi left-panel" style="background: #efefef; padding:30px; padding-bottom: 50px; ">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 style="text-align:center;"> THIS TITLE </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <p style="font-size:14px"> This is some Text, hello from text. This is some Text, hello from text. This is some Text, hello from text. This is some Text, hello from text. This is some Text, hello from text. This is some Text, hello from text. </p>
+                    </div>
+                </div>-->
+                <!--<div class="row">
+                    <div class="col-md-6 col-md-offset-4">
+                        <button style="margin-left: -17px;" class="btn btn-primary">Learn more about devops</button>
+                    </div>
+                </div>-->
+            <!--</div>-->
+            <!--<div class="col-md-5 hidden-sm hidden-xs sechi">
+                <img src="img/panel.jpg" width="705" height="285" >
+            </div>
+            <div style="background:white;" class="col-md-5 visible-sm visible-xs sechi">
+                <img src="img/panel.jpg" class="img-responsive" >
+            </div>-->
+        <!--</div>-->
+    </div>
+</section>
+<section class="third-section">
+    <div class="container">
+
+    </div>
+</section>
+
+
+
+
+
+
+  <footer> 
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h3> ABOUT GO INCREMENTAL </h3>
+            <p style="color: #fff"> Go Incremental is a relatively young company that takes a fresh approach on creating solutions for businesses. From cloud architecture to bespoke software solutions, we have you covered.</p>
+        </div>
+         <div class="col-md-4">
+             <!--<h3> QUICK LINKS </h3>-->
+        </div>
+         <div class="col-md-4">
+            <h3> TWEETS </h3>
+            <p style="color: white; font-size: 15px;">Project delays: why good software estimates are impossible <a href="http://chrismm.com/blog/project-delays-why-software-estimates/">chrismm.com/blog/project-delays-why-software-estimates..</a> via @christianmaioli</p>
+            <div class="line"> </div>
+            <br>
+            <p style="color: white; font-size: 15px;">The End of Microservices – LightStep – See Production in a New Light <a href="http://disq.us/t/2apro19">http://disq.us/t/2apro19</a> </p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-4 col-md-offset-8">
+          <a href="http://twitter.com/goincremental" target="_blank" class="icon-hover"> <i class="fa fa-twitter fa-2x social-cons" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/Go-Incremental-700827010030364/?fref=ts&ref=br_tf" target="_blank" class="icon-hover">   <i class="fa fa-facebook fa-2x social-cons" aria-hidden="true"></i></a>
+           <a href="https://www.linkedin.com/company/go-incremental" target="_blank" class="icon-hover">  <i class="fa fa-linkedin fa-2x social-cons" aria-hidden="true"></i></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4" style="color: #fff">
+            Copyright, Go Incremental.
+        </div>
+    </div>
+</div>
+
 </footer>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 </body>
 
