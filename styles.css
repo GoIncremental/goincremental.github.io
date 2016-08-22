@@ -76,6 +76,29 @@ iframe {top:0;left:0;width:100%; height:50%}
 border-bottom-right-radius: 0px !important;
 }*/
 
+
+
+.test-from {
+
+  color: #c10075;
+font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
+  /*margin-right:45px;*/
+
+}
+
+.test-text {
+    padding:15px;
+font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300;
+  font-size:1em;
+}
+
+h3 {
+      color: #c10075;
+      font-weight: 300;
+      font-size:2.1em;
+}
 @media(min-width: 1200px){
     .ms-white {
         margin-top:15px !important;
@@ -83,6 +106,10 @@ border-bottom-right-radius: 0px !important;
     .bg-white {
         margin-top: -20px;
     }
+}
+
+footer {
+    clear:both;
 }
 footer .social-cons {
     color: white;
